@@ -10,6 +10,6 @@ Run: bash cli_templater.sh
 Add alias command for it to .bashrc and source it.
 I use alias html='bash path_to_cli_templater.sh'.
 
-Output file generated is named index.html, so keep that in mind so that you don't overwrite something.
+When ran, path_to_cli_templater.sh will check for the presence of index.html in the directory where it is being ran and prompt for permission to overwrite if it's present. 
 
 index.html will be generated in whichever directory that you run the command in.
