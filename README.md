@@ -5,7 +5,7 @@ Generate HTML boilerplate from the command line.
 
 Clone repo to where you'd like it to live.
 
-Run: bash cli_templater.sh
+Run: bash cli_templater.sh (run with bash instead of sh or else newline option gets printed)
 
 Add alias command for it to .bashrc and source it.
 I use alias html='bash path_to_cli_templater.sh'.
